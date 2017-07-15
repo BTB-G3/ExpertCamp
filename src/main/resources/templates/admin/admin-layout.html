@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+		xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+
+<title layout:title-pattern="$CONTENT_TITLE - $DECORATOR_TITLE">Admin Page</title>
+<style type="text/css" th:replace="@{/shared/_style}"></style>
+</head>
+<body>
+	<div th:replace="@{/shared/_header}"></div>
+	<div th:replace="@{/shared/_leftsidebar}"></div>
+	<div layout:fragment="content"></div>
+	
+	<div th:replace="@{/shared/_footer}"></div>
+	<div th:replace="@{/shared/_script}"></div>
+	
+
+	<div layout:fragment="script"></div>
+	
+</body>
+</html>

@@ -36,8 +36,8 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 	public void addViewControllers(ViewControllerRegistry registry) {
 		
 			registry.addViewController("/admin").setViewName("/admin/dashboard");
-//			registry.addViewController("/swagger").setViewName("/swagger/dist/lib/o2c");
-//			registry.addViewController("/swagger-ui.html").setViewName("/swagger/dist/lib/o2c");
+			registry.addViewController("/swagger").setViewName("/swagger/swagger-ui");
+			registry.addViewController("/swagger-ui.html").setViewName("/swagger/swagger-ui");
 	}
 	@Bean
 	public LocaleResolver localeResolver() {

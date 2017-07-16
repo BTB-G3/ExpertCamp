@@ -7,15 +7,17 @@
 <style type="text/css" th:replace="@{/shared/_style}"></style>
 </head>
 <body>
+<div class="wrapper">
 	<div th:replace="@{/shared/_header}"></div>
 	<div th:replace="@{/shared/_leftsidebar}"></div>
 	<div layout:fragment="content"></div>
-	
+	<div th:replace="@{/shared/_rightsidebar}"></div>
 	<div th:replace="@{/shared/_footer}"></div>
+	
 	<div th:replace="@{/shared/_script}"></div>
 	
 
 	<div layout:fragment="script"></div>
-	
+</div>
 </body>
 </html>

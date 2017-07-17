@@ -1,4 +1,4 @@
-package com.hrd.smey.response;
+package com.hrd.expertcamp.response;
 
 public class Transaction {
 	public static class success{

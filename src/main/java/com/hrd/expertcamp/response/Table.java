@@ -1,4 +1,4 @@
-package com.hrd.smey.response;
+package com.hrd.expertcamp.response;
 
 public class Table {
 	public static final String USER="User";

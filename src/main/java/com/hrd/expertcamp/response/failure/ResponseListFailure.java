@@ -1,12 +1,12 @@
-package com.hrd.smey.response.failure;
+package com.hrd.expertcamp.response.failure;
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import com.hrd.smey.response.Pagination;
-import com.hrd.smey.response.ResponseHttpStatus;
-import com.hrd.smey.response.ResponseList;
+import com.hrd.expertcamp.response.Pagination;
+import com.hrd.expertcamp.response.ResponseHttpStatus;
+import com.hrd.expertcamp.response.ResponseList;
 
 
 

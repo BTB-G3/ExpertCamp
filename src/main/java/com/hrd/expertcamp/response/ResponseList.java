@@ -1,4 +1,4 @@
-package com.hrd.smey.response;
+package com.hrd.expertcamp.response;
 
 import java.util.List;
 

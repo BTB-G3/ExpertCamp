@@ -1,7 +1,7 @@
-package com.hrd.smey.response.failure;
+package com.hrd.expertcamp.response.failure;
 
-import com.hrd.smey.response.ResponseHttpStatus;
-import com.hrd.smey.response.ResponseRecord;
+import com.hrd.expertcamp.response.ResponseHttpStatus;
+import com.hrd.expertcamp.response.ResponseRecord;
 
 /**
  * 

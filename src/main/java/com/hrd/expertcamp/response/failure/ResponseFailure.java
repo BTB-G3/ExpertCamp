@@ -1,7 +1,7 @@
-package com.hrd.smey.response.failure;
+package com.hrd.expertcamp.response.failure;
 
-import com.hrd.smey.response.Response;
-import com.hrd.smey.response.ResponseHttpStatus;
+import com.hrd.expertcamp.response.Response;
+import com.hrd.expertcamp.response.ResponseHttpStatus;
 
 public class ResponseFailure<T> extends Response<T>{
 	private Error error;
@@ -20,6 +20,7 @@ public class ResponseFailure<T> extends Response<T>{
 		private String message;
 		
 		public Error(ResponseHttpStatus status) {
+
 			super();
 			this.code = status.getKey();
 			this.message = status.getValue();

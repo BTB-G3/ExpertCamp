@@ -1,4 +1,4 @@
-package com.hrd.smey.response;
+package com.hrd.expertcamp.response;
 /**
  * 
  * @author Mom Raksmey created date: 07/06/2017

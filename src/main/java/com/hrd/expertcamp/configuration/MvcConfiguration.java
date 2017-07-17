@@ -36,6 +36,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 	public void addViewControllers(ViewControllerRegistry registry) {
 		
 			registry.addViewController("/admin").setViewName("/admin/dashboard");
+			registry.addViewController("/login").setViewName("/fb-login/login");
 			registry.addViewController("/swagger").setViewName("/swagger/swagger-ui");
 			registry.addViewController("/swagger-ui.html").setViewName("/swagger/swagger-ui");
 	}
